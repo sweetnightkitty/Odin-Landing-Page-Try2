@@ -12,6 +12,7 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
+    padding: 12px 150px;
 }
 
 .body {
@@ -21,38 +22,93 @@ body {
     flex: 1;
 }
 
+.section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.header, .footer, .section-hero, .section-cta {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/* Content above is universal */
+
+
+
+
+/*Hero section */
 .section-hero {
-    background-color: skyblue;
-    flex: 1;
+    justify-content: space-between;
 }
 
+/*Infographic section */
 .section-info {
-    flex: 1;
+    flex-direction: column;
 }
 
-.info-container {
-    background-color: lightgray;
-    display: flex;
+.info {
+    width: 200px;
+    text-align: center;
 }
 
+/* Quote section */
 .section-quote {
-    background-color: skyblue;
-    display: flex;
-    flex: 1;
+    flex-direction: column;
 }
 
-.section-cta {
-    background-color: lightgray;
-    flex: 1;
+.container-quote {
+    flex-direction: column;
 }
+
+.quote-author {
+    margin-left: auto;
+}
+
+/* CTA section */
+.section-cta {
+    margin: 100px 150px;
+    align-self: stretch;
+    padding: 0;
+    gap: 100px;
+}
+
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px
+}
+
+.btn-cta {
+    margin-right: 100px;
+}
+
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8px 150px;
 }
 
+
+
+/* General */
 ul {
     display: flex;
     gap: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
