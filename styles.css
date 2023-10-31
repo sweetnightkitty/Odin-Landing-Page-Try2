@@ -1,11 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .header{
-    background-color: pink;
     display: flex;
     justify-content: space-between;
 }
@@ -17,8 +21,32 @@ body {
     flex: 1;
 }
 
-.footer {
+.section-hero {
     background-color: skyblue;
+    flex: 1;
+}
+
+.section-info {
+    flex: 1;
+}
+
+.info-container {
+    background-color: lightgray;
+    display: flex;
+}
+
+.section-quote {
+    background-color: skyblue;
+    display: flex;
+    flex: 1;
+}
+
+.section-cta {
+    background-color: lightgray;
+    flex: 1;
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
