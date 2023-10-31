@@ -22,6 +22,7 @@ body {
     flex: 1;
 }
 
+/*4 main content sections */
 .section {
     flex: 1;
     display: flex;
@@ -31,15 +32,16 @@ body {
     padding-bottom: 0;
 }
 
+/* containers embedded in body sections */
 .container {
     display: flex;
 }
 
+/* adjust visible left/right padding in alignment */
 .header, .footer, .section-hero, .section-cta {
     padding-left: 150px;
     padding-right: 150px;
 }
-/* Content above is universal */
 
 
 
@@ -47,6 +49,7 @@ body {
 /*Hero section */
 .section-hero {
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 /*Infographic section */
@@ -62,6 +65,7 @@ body {
 /* Quote section */
 .section-quote {
     flex-direction: column;
+    background-color: #E5E7EB;
 }
 
 .container-quote {
@@ -78,13 +82,14 @@ body {
     align-self: stretch;
     padding: 0;
     gap: 100px;
+    background-color: #3882F6;
 }
 
 
 .cta-content {
     display: flex;
     flex-direction: column;
-    padding-left: 100px
+    padding-left: 100px;
 }
 
 .btn-cta {
@@ -97,11 +102,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px 150px;
+    background-color: #1F2937;
 }
 
 
 
-/* General */
 ul {
     display: flex;
     gap: 20px;
@@ -112,3 +117,4 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
