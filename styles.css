@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
